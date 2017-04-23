@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 
-#############################################
-##
-##	Autor: Marti Puig Colome
-##	Fecha: 23/04/2017
-##	Script: Sensor de movimiento y camara
-##	Descripcion: El sensor cuando capta cualquier tipo de movimiento 
-##  a su alrededor envia una senya a la camara para que tome una foto.
-##	Esta se almacena a una ruta que se especifica
+##########################################################################
+##                                                                      ## 
+##	Autor: Marti Puig Colome                                            ##
+##	Fecha: 23/04/2017                                                   ##
+##	Script: Sensor de movimiento y camara                               ##
+##	Descripcion: El sensor cuando capta cualquier tipo de movimiento    ##
+##  a su alrededor envia una senya a la camara para que tome una foto.  ##
+##	Esta se almacena a una ruta que se especifica                       ##
+##                                                                      ##
+##########################################################################
 import RPi.GPIO as GPIO    			#Importamos la libreria GPIO
 import time                			#Importamos time
 import os
