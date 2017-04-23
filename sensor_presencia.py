@@ -32,7 +32,7 @@ try:
             os.system('mkdir -p Images')
             os.chdir(RUTA+'/Images')
             os.system('mkdir -p '+data)
-            os.chdir(RUTA+'/Imatges/'+data)
+            os.chdir(RUTA+'/Images/'+data)
             os.system('raspistill -vf -hf -o ' +hora+'.jpg')
             time.sleep(5)
 
